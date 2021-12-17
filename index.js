@@ -26,7 +26,7 @@ function passwordValidation(password)
     var upperCaseLetters = /[A-Z]/g;
     if(!password.match(upperCaseLetters)) {
       
-       waring+='- password must  contain an uppercase letter'
+       waring+='- password must  contain an uppercase letter\n'
         test =false
     } 
   
